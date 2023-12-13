@@ -6,11 +6,11 @@ We will learn *functional programming* using the programming language *Haskell* 
 
 This page is updated periodically with new learning material.
 
-* [Lecture Notes](files/LectureNotes/README.md)
+* [Lecture Notes](LectureNotes/README.md)
 
-* [Weekly Activity Plans](files/ActivityPlans/README.md)
+* [Weekly Activity Plans](ActivityPlans/README.md)
 
-* [Problem sheets](files/ProblemSheets/)
+* [Problem sheets](ProblemSheets/)
 
 * [Teams student support](https://teams.microsoft.com/l/team/19%3aKjPR7DwRM55w0N2viFbdxtdjDShgu1TebFuou_Zmawk1%40thread.tacv2/conversations?groupId=d2fcc432-c365-424c-af12-19ab3674f0ac&tenantId=b024cacf-dede-4241-a15c-3c97d553e9f3). It is important to join this as soon as possible, because this is where you can ask questions, to be answered by module lecturers, teaching assistants, demonstrators, and your colleagues, as well as discuss things about the module contents.
 
