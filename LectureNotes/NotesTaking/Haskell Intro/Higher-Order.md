@@ -79,7 +79,14 @@ False
 ```
 
 ### The foldr function
+- The foldr function itself can be defined using recursion:
 
+```haskell
+foldr :: (a -> b -> b) -> b -> [a] -> b
+foldr f v [] = v
+foldr f v (x:xs) = f x (foldr f v xs)
+```
+- That is, the function ```foldr f v``` maps the empty list to the value v, and any non-empty list to the function ```f``` applied to the head of the list and the recursively processed tail. 
 ```haskell
 foldr (#) v [x0,x1,...,xn]=x0 # (x1 # (... (xn # v) ...))
 foldl (#) v [x0,x1,...,xn]=(... ((v # x0) # x1) ...) # xn
