@@ -194,7 +194,7 @@ splitAt :: Int -> [a] -> ([a], [a])
 - To balance a binary tree
 ```haskell
 balance :: BT a -> BT a
-balance = balancedTree . treeInOrder -- Function compoosition
+balance = balancedTree . treeInOrder -- Function composition
 -- balance t = balancedTree(treeInOrder t)
 ```
 #### Example
