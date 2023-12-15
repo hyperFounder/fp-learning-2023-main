@@ -12,6 +12,19 @@ head :: [a] -> a
 
 - ```a``` is actually an example of a type variable, which means that ```a``` can be of any type.
 
+### Curried Functions
+In mathematics and computer science, ```currying``` is the technique of translating a function that takes multiple arguments into a sequence of families of functions, each taking a single argument.
+- Let's assume there exists a function ```mult``` defined as
+```haskell
+mult :: Int -> (Int -> (Int -> Int))
+mult x y z = x * y * z
+
+-- mult x y z means
+-- ((mult x) y) z
+```
+- This definition states that ```mult``` takes an integer ```x``` and returns a function, which in turn takes an integer ```y``` and returns another function, which finally takes an integer ```z``` and returns the result x*y*z.
+- Functions such as ```mult``` that take their arguments one at a time are called curried functions.
+  
 
 #### Example
 
