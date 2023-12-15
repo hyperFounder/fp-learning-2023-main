@@ -7,7 +7,9 @@
 - Haskell features lazy evaluation, lambda expressions, pattern matching, list comprehension, type classes and type polymorphism. It is a purely functional language, which means that functions generally have no side effects.
 #### Pure Functions
 - A function is called pure if it corresponds to a function in the mathematical sense. 
-- - A "pure" function has no side effects, e.g. writing to disk, or printing to a screen. For example
+- - A "pure" function has no side effects, e.g. writing to disk, or printing to a screen.
+- - A particular example of a "side-effect" is a mutable state, whereby ```mutable``` means that something can ```mutate```, be updated. i.e: updating the ```total``` variable counter in java for computing the sum from ```one``` to ```n```
+
 ```haskell
 fac :: Int -> Int
 ```
